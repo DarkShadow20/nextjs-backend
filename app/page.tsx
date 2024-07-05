@@ -1,8 +1,6 @@
 import client from "@/db"
 
 
-
-
 async function getUserData(){
   const user = await client.user.findFirst()
 
